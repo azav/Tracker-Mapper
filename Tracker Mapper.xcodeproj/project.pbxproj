@@ -15,6 +15,16 @@
 		4D6FC4271F465E9F004F364A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6FC4251F465E9F004F364A /* LaunchScreen.storyboard */; };
 		4D6FC4321F465E9F004F364A /* Tracker_MapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC4311F465E9F004F364A /* Tracker_MapperTests.m */; };
 		4D6FC43D1F465E9F004F364A /* Tracker_MapperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC43C1F465E9F004F364A /* Tracker_MapperUITests.m */; };
+		4D6FC44C1F46645A004F364A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6FC44B1F46645A004F364A /* CoreLocation.framework */; };
+		4D6FC44F1F466698004F364A /* DataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC44E1F466698004F364A /* DataSingleton.m */; };
+		4D6FC4521F4666B1004F364A /* GeoLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC4511F4666B1004F364A /* GeoLocationManager.m */; };
+		4D6FC4551F4668C1004F364A /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC4541F4668C1004F364A /* LoadingViewController.m */; };
+		4D6FC4581F466CEB004F364A /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC4571F466CEB004F364A /* MainCollectionViewController.m */; };
+		4D6FC4601F467988004F364A /* Main Menu Items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D6FC45F1F467988004F364A /* Main Menu Items.plist */; };
+		4D6FC4661F468548004F364A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC4651F468548004F364A /* MainTableViewController.m */; };
+		4D6FC4691F468F9C004F364A /* GeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC4681F468F9C004F364A /* GeoLocation.m */; };
+		4D6FC46C1F469281004F364A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FC46B1F469281004F364A /* MapViewController.m */; };
+		4D6FC46E1F469560004F364A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6FC46D1F469560004F364A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,23 @@
 		4D6FC4381F465E9F004F364A /* Tracker MapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tracker MapperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6FC43C1F465E9F004F364A /* Tracker_MapperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tracker_MapperUITests.m; sourceTree = "<group>"; };
 		4D6FC43E1F465E9F004F364A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6FC44B1F46645A004F364A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4D6FC44D1F466698004F364A /* DataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSingleton.h; path = Classes/DataSingleton.h; sourceTree = "<group>"; };
+		4D6FC44E1F466698004F364A /* DataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataSingleton.m; path = Classes/DataSingleton.m; sourceTree = "<group>"; };
+		4D6FC4501F4666B1004F364A /* GeoLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoLocationManager.h; path = Classes/GeoLocationManager.h; sourceTree = "<group>"; };
+		4D6FC4511F4666B1004F364A /* GeoLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoLocationManager.m; path = Classes/GeoLocationManager.m; sourceTree = "<group>"; };
+		4D6FC4531F4668C1004F364A /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingViewController.h; path = Classes/LoadingViewController.h; sourceTree = "<group>"; };
+		4D6FC4541F4668C1004F364A /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingViewController.m; path = Classes/LoadingViewController.m; sourceTree = "<group>"; };
+		4D6FC4561F466CEB004F364A /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainCollectionViewController.h; path = Classes/MainCollectionViewController.h; sourceTree = "<group>"; };
+		4D6FC4571F466CEB004F364A /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainCollectionViewController.m; path = Classes/MainCollectionViewController.m; sourceTree = "<group>"; };
+		4D6FC45F1F467988004F364A /* Main Menu Items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Main Menu Items.plist"; sourceTree = "<group>"; };
+		4D6FC4641F468548004F364A /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = Classes/MainTableViewController.h; sourceTree = "<group>"; };
+		4D6FC4651F468548004F364A /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = Classes/MainTableViewController.m; sourceTree = "<group>"; };
+		4D6FC4671F468F9C004F364A /* GeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoLocation.h; path = Classes/GeoLocation.h; sourceTree = "<group>"; };
+		4D6FC4681F468F9C004F364A /* GeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoLocation.m; path = Classes/GeoLocation.m; sourceTree = "<group>"; };
+		4D6FC46A1F469281004F364A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Classes/MapViewController.h; sourceTree = "<group>"; };
+		4D6FC46B1F469281004F364A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = Classes/MapViewController.m; sourceTree = "<group>"; };
+		4D6FC46D1F469560004F364A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6FC46E1F469560004F364A /* MapKit.framework in Frameworks */,
+				4D6FC44C1F46645A004F364A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,7 @@
 				4D6FC4301F465E9F004F364A /* Tracker MapperTests */,
 				4D6FC43B1F465E9F004F364A /* Tracker MapperUITests */,
 				4D6FC4151F465E9F004F364A /* Products */,
+				4D6FC44A1F46645A004F364A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +133,26 @@
 			children = (
 				4D6FC41A1F465E9F004F364A /* AppDelegate.h */,
 				4D6FC41B1F465E9F004F364A /* AppDelegate.m */,
+				4D6FC44D1F466698004F364A /* DataSingleton.h */,
+				4D6FC44E1F466698004F364A /* DataSingleton.m */,
+				4D6FC45F1F467988004F364A /* Main Menu Items.plist */,
+				4D6FC4501F4666B1004F364A /* GeoLocationManager.h */,
+				4D6FC4511F4666B1004F364A /* GeoLocationManager.m */,
+				4D6FC4671F468F9C004F364A /* GeoLocation.h */,
+				4D6FC4681F468F9C004F364A /* GeoLocation.m */,
 				4D6FC41D1F465E9F004F364A /* ViewController.h */,
 				4D6FC41E1F465E9F004F364A /* ViewController.m */,
+				4D6FC4641F468548004F364A /* MainTableViewController.h */,
+				4D6FC4651F468548004F364A /* MainTableViewController.m */,
+				4D6FC4561F466CEB004F364A /* MainCollectionViewController.h */,
+				4D6FC4571F466CEB004F364A /* MainCollectionViewController.m */,
+				4D6FC46A1F469281004F364A /* MapViewController.h */,
+				4D6FC46B1F469281004F364A /* MapViewController.m */,
 				4D6FC4201F465E9F004F364A /* Main.storyboard */,
 				4D6FC4231F465E9F004F364A /* Assets.xcassets */,
 				4D6FC4251F465E9F004F364A /* LaunchScreen.storyboard */,
+				4D6FC4531F4668C1004F364A /* LoadingViewController.h */,
+				4D6FC4541F4668C1004F364A /* LoadingViewController.m */,
 				4D6FC4281F465E9F004F364A /* Info.plist */,
 				4D6FC4171F465E9F004F364A /* Supporting Files */,
 			);
@@ -138,6 +183,15 @@
 				4D6FC43E1F465E9F004F364A /* Info.plist */,
 			);
 			path = "Tracker MapperUITests";
+			sourceTree = "<group>";
+		};
+		4D6FC44A1F46645A004F364A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6FC46D1F469560004F364A /* MapKit.framework */,
+				4D6FC44B1F46645A004F364A /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +261,7 @@
 				TargetAttributes = {
 					4D6FC4131F465E9F004F364A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6EV4R3W4JG;
 						ProvisioningStyle = Automatic;
 					};
 					4D6FC42C1F465E9F004F364A = {
@@ -249,6 +304,7 @@
 				4D6FC4271F465E9F004F364A /* LaunchScreen.storyboard in Resources */,
 				4D6FC4241F465E9F004F364A /* Assets.xcassets in Resources */,
 				4D6FC4221F465E9F004F364A /* Main.storyboard in Resources */,
+				4D6FC4601F467988004F364A /* Main Menu Items.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6FC4661F468548004F364A /* MainTableViewController.m in Sources */,
 				4D6FC41F1F465E9F004F364A /* ViewController.m in Sources */,
+				4D6FC4551F4668C1004F364A /* LoadingViewController.m in Sources */,
 				4D6FC41C1F465E9F004F364A /* AppDelegate.m in Sources */,
+				4D6FC4521F4666B1004F364A /* GeoLocationManager.m in Sources */,
 				4D6FC4191F465E9F004F364A /* main.m in Sources */,
+				4D6FC4691F468F9C004F364A /* GeoLocation.m in Sources */,
+				4D6FC46C1F469281004F364A /* MapViewController.m in Sources */,
+				4D6FC44F1F466698004F364A /* DataSingleton.m in Sources */,
+				4D6FC4581F466CEB004F364A /* MainCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +489,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6EV4R3W4JG;
 				INFOPLIST_FILE = "Tracker Mapper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Tracker-Mapper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +503,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6EV4R3W4JG;
 				INFOPLIST_FILE = "Tracker Mapper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Tracker-Mapper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
