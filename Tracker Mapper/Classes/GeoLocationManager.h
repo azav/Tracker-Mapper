@@ -19,6 +19,9 @@
 
 @property (nonatomic, strong) NSMutableArray *currentJourney;
 
+@property (nonatomic, strong) NSString *latestCoordString; // For observing
+@property (nonatomic, strong) NSDictionary *latestCoordDict; // For observing
+
 + (instancetype)sharedInstance;
 - (void)start;
 - (void)stop;

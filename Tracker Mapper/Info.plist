@@ -58,5 +58,11 @@
 	<string></string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>The device&apos;s location is always logged by the app. Device location access tracks where the device is for mapping and location recording.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The device&apos;s location is always logged by the app. Device location access tracks where the device is for mapping and location recording.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>

@@ -84,5 +84,14 @@
     
 }
 
+- (void)startRecordingLocationUpdates
+{
+    
+}
+
+- (void)stopRecordingLocationUpdates
+{
+    
+}
 
 @end

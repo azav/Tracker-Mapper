@@ -22,6 +22,7 @@
 - (IBAction)start:(id)sender;
 - (IBAction)stop:(id)sender;
 
+- (void)updateUI;
 
 
 
